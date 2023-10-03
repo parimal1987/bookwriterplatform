@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "email": "admin@bookui.com",
+      "password": "$2a$10$PZTkWH2Sk9GjhTa.PjYzB.QIvvUimtvbg/.IuxaU96EvL1lyhoSpG",
+      "name": "test admin",
+      "id": 1
+    },
+    {
+      "email": "collaborator@bookui.com",
+      "password": "$2a$10$36N9EaLCMkuyKUFKwlhZFumNDsnHjem9riuCtNAiZfd6nYfgcHKPe",
+      "name": "Collaborator User",
+      "id": 2
+    }
+  ],
+  "books": [
+    {
+      "id": 101,
+      "userId": 1,
+      "bookname": "book 1",
+      "description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+    },
+    {
+      "id": 102,
+      "userId": 1,
+      "bookname": "book 2"
+    },
+    {
+      "id": 103,
+      "userId": 2,
+      "bookname": "book 3"
+    },
+    {
+      "id": 104,
+      "userId": 1,
+      "bookname": "book 4",
+      "description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+    }
+  ],
+  "sections": [
+    {
+      "depth": 0,
+      "title": "New Intro Book1 D1",
+      "bookId": 101,
+      "id": 1
+    },
+    {
+      "depth": 1,
+      "sectionId": 1,
+      "title": "New Intro Book1 D2",
+      "bookId": 101,
+      "id": 2
+    },
+    {
+      "depth": 0,
+      "title": "New Intro Book2 D1",
+      "bookId": 102,
+      "id": 3
+    },
+    {
+      "depth": 1,
+      "sectionId": 3,
+      "title": "New Intro Book2 D2",
+      "bookId": 102,
+      "id": 4
+    },
+    {
+      "depth": 0,
+      "title": "New Intro Book3 D1",
+      "bookId": 103,
+      "id": 5
+    }
+  ]
+}
